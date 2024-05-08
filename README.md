@@ -1,0 +1,20 @@
+Step1:- Setup environment
+
+Step2:- Install all required packages
+
+a) FastAPI:- FastAPI is a modern, fast (high-performance), web framework for building APIs.
+installation command:- pip install fastapi
+
+b) Pydantic:- Pydantic is a Python library that is commonly used with FastAPI.
+It plays a crucial role in FastAPI applications by providing data validation, parsing, and serialization capabilities.
+
+c) Pymongo:- It helps to interacts with the MongoDB database.
+installation command:- pip install pymongo
+
+d) uvicorn:- Uvicorn is an ASGI web server implementation for Python.
+installation command:- pip install uvicorn
+
+Step3:- Start the server
+command:- uvicorn main:app --reload; where, "main" is basically the "main.py" file.
+
+Note:- I used simple "Swagger UI" RestAPI by using local server "localhost:8000/docs"
